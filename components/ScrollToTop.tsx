@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // 📜 Scroll To Top
 // This component ensures that the window scrolls to the top whenever the route changes.
 // It provides a better user experience, especially for long pages, by preventing
@@ -21,3 +22,19 @@ function ScrollToTop() {
 }
 
 export default ScrollToTop;
+=======
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+};
+
+export default ScrollToTop;
+>>>>>>> 606c5bb6d5a6d2dceebad08e1b00065ff1f8b8ee

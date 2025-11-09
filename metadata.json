@@ -1,5 +1,10 @@
 {
+<<<<<<< HEAD
   "name": "Copy of Copy of Vp",
   "description": "A cinematic portfolio for Vikas, a Motion Designer & VFX Storyteller, showcasing projects with a focus on high-end visuals and smooth animations.",
+=======
+  "name": "animation imprv",
+  "description": "A digital experience that transcends the traditional portfolio format, showcasing the work of Vikas, a Motion Designer & VFX Storyteller. The website itself is a demonstration of motion and visual storytelling.",
+>>>>>>> 606c5bb6d5a6d2dceebad08e1b00065ff1f8b8ee
   "requestFramePermissions": []
 }
